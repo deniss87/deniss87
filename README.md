@@ -93,9 +93,10 @@ I’m eager to contribute to real-world projects, collaborate with other develop
 
 ### React, Next.js
 
-| Project                                                                                    | Technologies | Links                                                                                                                                              |
-| ------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**Pokémon Database**](https://github.com/deniss87/JSFEEN2024Q4/tree/christmas-shop-part3) | **React**    | [📘 README](https://github.com/deniss87/JSFEEN2024Q4/blob/christmas-shop-part3/README.md) · [🌍 Live Demo](https://rss-react-project.netlify.app/) |
+| Project                                                                                    | Technologies                                                                      | Links                                                                                                                                                                           |
+| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**eCommerce App (Teamwork)**](https://github.com/deepcd87/rss-ecomm-task)                 | **React**, **TypeScript**, **Commercetools API**, SPA, Webpack, Responsive Design | [📘 README](https://github.com/deepcd87/rss-ecomm-task/blob/main/README.md) · [🔄 Pull requests](https://github.com/deepcd87/rss-ecomm-task/pulls?page=1&q=is%3Apr+is%3Aclosed) |
+| [**Pokémon Database**](https://github.com/deniss87/JSFEEN2024Q4/tree/christmas-shop-part3) | **React**                                                                         | [📘 README](https://github.com/deniss87/JSFEEN2024Q4/blob/christmas-shop-part3/README.md) · [🌍 Live Demo](https://rss-react-project.netlify.app/)                              |
 
 ---
 
