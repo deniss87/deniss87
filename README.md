@@ -2,12 +2,21 @@
 
 ## 👨‍💻 About Me
 
-I'm a passionate Junior Web Developer.
-I love turning ideas into interactive websites and learning new technologies every day.
+I'm a passionate Junior Web Developer who loves turning ideas into interactive, user-friendly web applications.  
+I continuously work on expanding my knowledge and refining my skills.
 
-Currently, I’m focusing on frontend and full-stack development, building responsive web apps, and improving my skills with JavaScript, TypeScript, React, and Node.js.
+I focus on **frontend and full-stack development**, working with modern technologies such as:
 
-I’m eager to contribute to real-world projects, collaborate with other developers, and grow as a professional in the web development world.
+- **JavaScript, TypeScript, React, Next.js**
+- **PHP, Node.js**
+- **MySQL, PostgreSQL**
+- **REST APIs, GraphQL**
+
+Throughout the _The Rolling Scopes School Courses (JS / Front-end Course, React Course)_,  
+I gained hands-on experience working in a **team environment**, participating in **code reviews**, and receiving valuable **feedback from an experienced mentor**.  
+These courses helped me develop better coding practices, improve architecture decisions, and understand real-world development workflows.
+
+I'm eager to contribute to real projects, collaborate with developers, and continue growing as a professional in the web development world.
 
 ---
 
@@ -19,7 +28,7 @@ I’m eager to contribute to real-world projects, collaborate with other develop
   <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white" /> 
   <img src="https://img.shields.io/badge/CSS3-264de4?logo=css3&logoColor=white" /> 
   <img src="https://img.shields.io/badge/Sass-cf649a?logo=sass&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/TailwindCSS-38bdf8?logo=tailwindcss&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/TailwindCSS-black?logo=tailwindcss&logoColor=38bdf8&labelColor=000000" />
   <img src="https://img.shields.io/badge/JavaScript-f7df1e?logo=javascript&logoColor=black" /> 
   <img src="https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white" /> 
   <img src="https://img.shields.io/badge/React-61dafb?logo=react&logoColor=black" /> 
@@ -55,7 +64,6 @@ I’m eager to contribute to real-world projects, collaborate with other develop
   <img src="https://img.shields.io/badge/Bitbucket-2684ff?logo=bitbucket&logoColor=white" /> 
   <img src="https://img.shields.io/badge/Jira-0052cc?logo=jira&logoColor=white" /> 
   <img src="https://img.shields.io/badge/Figma-f24e1e?logo=figma&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/Clean%20Code-2E7D32?logo=code" /> 
   <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" /> 
   <img src="https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black" /> 
   <img src="https://img.shields.io/badge/Husky-000000?logo=github&logoColor=white" />
@@ -81,11 +89,11 @@ I’m eager to contribute to real-world projects, collaborate with other develop
 
 ## 📚 Courses
 
-| Course                                                                                   | About                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Links                                                                                                                                                     |
-| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**JS / Front-end Course (RS School)**](https://github.com/deniss87/JSFEEN2024Q4)        | 26-week program followed by a 7-week final team project<details><ul><li>Introduction to the profession of JS/Front-end developer</li><li>Git and GitHub</li> <li>HTML, Markdown</li> <li>CSS, Sass, Figma</li> <li>JavaScript</li> <li>Clean Code, Linters, formatters, Husky</li> <li>TypeScript</li> <li>Code review, Design patterns, Design principles</li> <li>Bundlers, SPA, Web storages</li> <li>RESTful API, Websockets, Asynchronous programming</li> <li>Event loop, animation, Web security</li> <li>Scrum/Kanban, CI/CD</li> <li><b>Final task. Teamwork (7-week sprint)</b></li></ul> </details> | [📘 README](https://github.com/deniss87/JSFEEN2024Q4/blob/main/README.md) · [🌍 Course Website](https://rs.school/courses/javascript)                     |
-| [**React Course (RS School)**](https://github.com/deniss87/REACT2025Q3)                  | 8-week program followed by a 3-week final team project <details><ul><li>History of React</li> <li>Vite with React and the TypeScript</li> <li>Class Components</li> <li>Error Boundaries</li> <li>React Tests</li> <li>Hooks</li> <li>React Router</li> <li>Context API</li> <li>State management</li> <li>React Query</li> <li>Next.js</li> <li>Forms</li> <li>Portals</li> <li>React Performance</li> <li><b>Final task. Teamwork (3-week sprint)</b></li></ul></details>                                                                                                                                    | [📘 README](https://github.com/deniss87/REACT2025Q3/blob/main/README.md) · [🌍 Course Website](https://rs.school/courses/reactjs)                         |
-| [**Web Applications for Everybody (Coursera)**](https://github.com/deniss87/REACT2025Q3) | Coursera Specialization, that covers PHP, MySQL, JavaScript and includes the following courses: <details><ul> <li>Building Web Applications in PHP</li> <li>Introduction to Structured Query Language (SQL)</li> <li>Building Database Applications in PHP</li> <li>JavaScript, jQuery, and JSON</li> </details>                                                                                                                                                                                                                                                                                               | [📘 README](https://github.com/deniss87/REACT2025Q3/blob/main/README.md) · [🌍 Course Website](https://www.coursera.org/specializations/web-applications) |
+| Course                                                                                                             | About                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Links                                                                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**JS / Front-end Course (RS School)**](https://github.com/deniss87/JSFEEN2024Q4)                                  | 26-week program followed by a 7-week final team project<details><ul><li>Introduction to the profession of JS/Front-end developer</li><li>Git and GitHub</li> <li>HTML, Markdown</li> <li>CSS, Sass, Figma</li> <li>JavaScript</li> <li>Clean Code, Linters, formatters, Husky</li> <li>TypeScript</li> <li>Code review, Design patterns, Design principles</li> <li>Bundlers, SPA, Web storages</li> <li>RESTful API, Websockets, Asynchronous programming</li> <li>Event loop, animation, Web security</li> <li>Scrum/Kanban, CI/CD</li> <li><b>Final task. Teamwork (7-week sprint)</b></li></ul> </details> | [📘 README](https://github.com/deniss87/JSFEEN2024Q4/blob/main/README.md) · [🌍 Course Website](https://rs.school/courses/javascript)                                               |
+| [**React Course (RS School)**](https://github.com/deniss87/REACT2025Q3)                                            | 8-week program followed by a 3-week final team project <details><ul><li>History of React</li> <li>Vite with React and the TypeScript</li> <li>Class Components</li> <li>Error Boundaries</li> <li>React Tests</li> <li>Hooks</li> <li>React Router</li> <li>Context API</li> <li>State management</li> <li>React Query</li> <li>Next.js</li> <li>Forms</li> <li>Portals</li> <li>React Performance</li> <li><b>Final task. Teamwork (3-week sprint)</b></li></ul></details>                                                                                                                                    | [📘 README](https://github.com/deniss87/REACT2025Q3/blob/main/README.md) · [🌍 Course Website](https://rs.school/courses/reactjs)                                                   |
+| [**Web Applications for Everybody (Coursera)**](https://github.com/deniss87/course-web-applications-for-everybody) | Coursera Specialization, that covers PHP, MySQL, JavaScript and includes the following courses: <details><ul> <li>Building Web Applications in PHP</li> <li>Introduction to Structured Query Language (SQL)</li> <li>Building Database Applications in PHP</li> <li>JavaScript, jQuery, and JSON</li> </details>                                                                                                                                                                                                                                                                                               | [📘 README](https://github.com/deniss87/course-web-applications-for-everybody/blob/main/README.md) · [🌍 Course Website](https://www.coursera.org/specializations/web-applications) |
 
 ---
 
@@ -96,7 +104,7 @@ I’m eager to contribute to real-world projects, collaborate with other develop
 | Project                                                                                  | Technologies                                                             | Links                                                                                                                                                               |
 | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**Christmas Shop**](https://github.com/deniss87/JSFEEN2024Q4/tree/christmas-shop-part3) | HTML, **CSS / Sass**, **JavaScript**, **Responsive Design**, **Figma**   | [📘 README](https://github.com/deniss87/JSFEEN2024Q4/blob/christmas-shop-part3/README.md) · [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/christmas-shop/) |
-| [**Hangman**](https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/)                    | HTML, CSS / Sass, **JavaScript**, Responsive Design                      | [📘 README](https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/README.md) · [🎮 Play Online](https://deniss87.github.io/JSFEEN2024Q4/hangman/)                   |
+| [**Hangman**](https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/)                    | HTML, CSS / Sass, **JavaScript**, Responsive Design                      | [📘 README](https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/README.md) · [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/hangman/)                     |
 | [**News API**](https://github.com/deniss87/JSFEEN2024Q4/tree/news-api)                   | HTML, CSS, **TypeScript**, **Webpack**, **REST API**, Responsive Design  | [📘 README](https://github.com/deniss87/JSFEEN2024Q4/blob/news-api/README.md) · [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/news-api/)                   |
 | [**Async Race**](https://github.com/deniss87/JSFEEN2024Q4/tree/async-race)               | HTML, CSS, **TypeScript**, **REST API**, **Web Animations API**, Webpack | [📘 README](https://github.com/deniss87/JSFEEN2024Q4/blob/async-race/README.md) · [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/async-race/)               |
 | [**Fun Chat**](https://github.com/deniss87/JSFEEN2024Q4/tree/fun-chat)                   | HTML, CSS, **TypeScript**, **WebSocket**, **SPA**, Webpack               | [📘 README](https://github.com/deniss87/JSFEEN2024Q4/blob/fun-chat/README.md) · [🌍 Live Demo](https://deniss87-fun-chat.netlify.app/)                              |
@@ -107,25 +115,20 @@ I’m eager to contribute to real-world projects, collaborate with other develop
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**eCommerce App (Teamwork)**](https://github.com/deepcd87/rss-ecomm-task)         | **React**, **TypeScript**, **Commercetools API**, SPA, Webpack, Responsive Design              | [📘 README](https://github.com/deepcd87/rss-ecomm-task/blob/main/README.md) · [🔄 Pull requests](https://github.com/deepcd87/rss-ecomm-task/pulls?page=1&q=is%3Apr+is%3Aclosed) |
 | [**Pokémon Database**](https://github.com/deniss87/REACT2025Q3/tree/pokemon-react) | **React**, React Router, TypeScript, Tailwind, Zustand, TanStack Query, Vitest                 | [📘 README](https://github.com/deniss87/REACT2025Q3/blob/pokemon-react/README.md) · [🌍 Live Demo](https://rss-react-project.netlify.app/)                                      |
-| [**Rest Client**](https://github.com/deepcd87/rest-client-app)                     | **Next.js**, App Router, TypeScript, Tailwind, NextAuth.js, Prisma ORM, next-intl, Zod, Vitest | [📘 README](https://github.com/deepcd87/rest-client-app/blob/main/README.md) · [🔄 Pull requests](https://github.com/deepcd87/rest-client-app/pull/1)                           |
+| [**Rest Client (Teamwork)**](https://github.com/deepcd87/rest-client-app)          | **Next.js**, App Router, TypeScript, Tailwind, NextAuth.js, Prisma ORM, next-intl, Zod, Vitest | [📘 README](https://github.com/deepcd87/rest-client-app/blob/main/README.md) · [🔄 Pull requests](https://github.com/deepcd87/rest-client-app/pull/1)                           |
 
 ### PHP
 
-| Project                                                | Technologies     | Links                                                                                                                                                                           |
-| ------------------------------------------------------ | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**shop**](https://github.com/deepcd87/rss-ecomm-task) | **PHP**, **OOP** | [📘 README](https://github.com/deepcd87/rss-ecomm-task/blob/main/README.md) · [🔄 Pull requests](https://github.com/deepcd87/rss-ecomm-task/pulls?page=1&q=is%3Apr+is%3Aclosed) |
+| Project                                                                        | Technologies                | Links                                                                                                                              |
+| ------------------------------------------------------------------------------ | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [**Product Management App**](https://github.com/deniss87/learning-php-oop-app) | **PHP**, **OOP**, **MySQL** | [📘 README](https://github.com/deniss87/learning-php-oop-app/blob/main/README.md) · [🌍 Live Demo](https://php-oop-crud.42web.io/) |
 
 ---
 
 ## 📫 Contact
 
-<p> 
-  <a href="mailto:deniss.patancevs@gmail.com" target="_blank"> 
-    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" height="24"/> 
-  </a> 
-  <a href="https://linkedin.com/in/deniss-patancevs" target="_blank"> 
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" height="24"/> 
-  </a> <a href="https://github.com/deniss87" target="_blank"> 
-    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" height="24"/> 
-  </a> 
+<p>
+  <a href="mailto:deniss.patancevs@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" height="24"/></a>
+  <a href="https://linkedin.com/in/deniss-patancevs" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" height="24"/></a>
+  <a href="https://github.com/deniss87" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" height="24"/></a>
 </p>
