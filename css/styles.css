@@ -67,6 +67,18 @@ h3 {
   font-size: 1.8rem;
 }
 
+.tech-badge {
+  display: inline-block;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.tech-badge:hover {
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.25);
+}
+
 .tech-icons img {
   margin: 3px;
   vertical-align: middle;
@@ -93,6 +105,14 @@ th {
 td a {
   color: #58a6ff;
 }
+tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+tbody tr:hover {
+  background-color: #1e293b;
+}
+
 .contact a img {
   margin-right: 10px;
   vertical-align: middle;
