@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name – GitHub Profile</title>
+    <title>Deniss Patancevs | Web Developer</title>
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-CKYWV7WWSZ"
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -16,10 +16,10 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
-      gtag("config", "G-CKYWV7WWSZ");
+      gtag("config", "G-XXXXXXXXXX");
     </script>
 
+    <!-- Styles -->
     <style>
       body {
         font-family:
@@ -29,62 +29,528 @@
         color: #c9d1d9;
         margin: 0;
         padding: 0;
+        line-height: 1.6;
       }
-
-      .container {
-        max-width: 760px;
-        margin: 80px auto;
-        padding: 20px;
-        text-align: center;
-      }
-
       a {
         color: #58a6ff;
         text-decoration: none;
       }
-
       a:hover {
         text-decoration: underline;
       }
-
-      .avatar {
-        width: 160px;
-        height: 160px;
-        border-radius: 50%;
-        border: 3px solid #30363d;
-        margin-bottom: 20px;
+      .container {
+        max-width: 960px;
+        margin: 50px auto;
+        padding: 20px;
       }
-
-      .box {
+      h1,
+      h2,
+      h3 {
+        color: #f0f6fc;
+      }
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5em;
+        text-align: center;
+      }
+      h2 {
+        font-size: 1.8rem;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+      }
+      h3 {
+        font-size: 1.4rem;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+      }
+      .avatar {
+        width: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .section {
+        margin-bottom: 40px;
+      }
+      .tech-icons img {
+        margin: 3px;
+        vertical-align: middle;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #30363d;
+      }
+      th {
         background: #161b22;
-        padding: 24px;
-        border-radius: 12px;
-        margin-top: 30px;
+        color: #58a6ff;
+      }
+      td a {
+        color: #58a6ff;
+      }
+      .contact a img {
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+      hr {
         border: 1px solid #30363d;
+        margin: 40px 0;
+      }
+      .filter-buttons {
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      .filter-buttons button {
+        background: #161b22;
+        color: #58a6ff;
+        border: none;
+        padding: 6px 12px;
+        margin: 3px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      .filter-buttons button.active {
+        background: #58a6ff;
+        color: #0d1117;
+      }
+      .hidden {
+        display: none;
       }
     </style>
   </head>
-
   <body>
     <div class="container">
-      <img
-        src="https://github.com/yourusername.png"
-        alt="Profile"
-        class="avatar"
-      />
+      <!-- Header -->
+      <div class="section">
+        <img
+          src="https://github.com/deniss87.png"
+          alt="Deniss Patancevs"
+          class="avatar"
+        />
+        <h1>Hi there, I'm Deniss Patancevs! 👋</h1>
+        <p style="text-align: center">
+          I'm Junior Web Developer passionate about creating interactive and
+          user-friendly web applications.<br />
+          Focused on frontend and full-stack development.
+        </p>
+      </div>
 
-      <h1>@deniss87</h1>
-      <p>
-        Welcome! This is a lightweight landing page that tracks visits using
-        Cloudflare Web Analytics.
-      </p>
+      <!-- Tech Stack -->
+      <div class="section">
+        <h2>🧰 My Tech Stack</h2>
+        <h3>🎨 Frontend</h3>
+        <p class="tech-icons">
+          <img
+            src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/CSS3-264de4?logo=css3&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/Sass-cf649a?logo=sass&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/TailwindCSS-black?logo=tailwindcss&logoColor=38bdf8&labelColor=000000"
+          />
+          <img
+            src="https://img.shields.io/badge/JavaScript-f7df1e?logo=javascript&logoColor=black"
+          />
+          <img
+            src="https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/React-61dafb?logo=react&logoColor=black"
+          />
+          <img
+            src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white"
+          />
+        </p>
+        <h3>🧩 Backend & APIs</h3>
+        <p class="tech-icons">
+          <img
+            src="https://img.shields.io/badge/PHP-777bb4?logo=php&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white"
+          />
+          <img src="https://img.shields.io/badge/REST%20API-0052CC?logo=api" />
+          <img
+            src="https://img.shields.io/badge/GraphQL-e10098?logo=graphql&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/WebSocket-0085CA?logo=socket.io&logoColor=white"
+          />
+        </p>
+        <h3>🗄️ Databases</h3>
+        <p class="tech-icons">
+          <img
+            src="https://img.shields.io/badge/MySQL-005C84?logo=mysql&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white"
+          />
+        </p>
+        <h3>⚙️ Tools & Build Systems</h3>
+        <p class="tech-icons">
+          <img
+            src="https://img.shields.io/badge/Webpack-1C78C0?logo=webpack&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=yellow"
+          />
+          <img
+            src="https://img.shields.io/badge/Git-f05033?logo=git&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/Bitbucket-2684ff?logo=bitbucket&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/Jira-0052cc?logo=jira&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/Figma-f24e1e?logo=figma&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black"
+          />
+          <img
+            src="https://img.shields.io/badge/Husky-000000?logo=github&logoColor=white"
+          />
+        </p>
+      </div>
 
-      <div class="box">
-        <h2>Go to GitHub Profile</h2>
+      <hr />
+
+      <!-- Courses -->
+      <div class="section">
+        <h2>📚 Courses</h2>
+        <table>
+          <tr>
+            <th>Course</th>
+            <th>About</th>
+            <th>Links</th>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.com/deniss87/JSFEEN2024Q4"
+                >JS / Front-end Course (RS School)</a
+              >
+            </td>
+            <td>26-week program followed by a 7-week final team project</td>
+            <td>
+              <a
+                href="https://github.com/deniss87/JSFEEN2024Q4/blob/main/README.md"
+                >📘 README</a
+              >
+              ·
+              <a href="https://rs.school/courses/javascript"
+                >🌍 Course Website</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.com/deniss87/REACT2025Q3"
+                >React Course (RS School)</a
+              >
+            </td>
+            <td>8-week program with hands-on projects</td>
+            <td>
+              <a
+                href="https://github.com/deniss87/REACT2025Q3/blob/main/README.md"
+                >📘 README</a
+              >
+              ·
+              <a href="https://rs.school/courses/reactjs">🌍 Course Website</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="https://github.com/deniss87/course-web-applications-for-everybody"
+                >Web Applications (Coursera)</a
+              >
+            </td>
+            <td>PHP, MySQL, JavaScript specialization</td>
+            <td>
+              <a
+                href="https://github.com/deniss87/course-web-applications-for-everybody/blob/main/README.md"
+                >📘 README</a
+              >
+              ·
+              <a
+                href="https://www.coursera.org/specializations/web-applications"
+                >🌍 Course Website</a
+              >
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <hr />
+
+      <!-- Projects -->
+      <div class="section">
+        <h2>🚀 Projects</h2>
+
+        <!-- Filter buttons -->
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="js">JS/TS</button>
+          <button class="filter-btn" data-filter="react">React/Next.js</button>
+          <button class="filter-btn" data-filter="php">PHP</button>
+        </div>
+
+        <table id="projects-table">
+          <tr>
+            <th>Project</th>
+            <th>Technologies</th>
+            <th>Links</th>
+          </tr>
+
+          <!-- JS / TS -->
+          <tr class="project-row js">
+            <td>
+              <a
+                href="https://github.com/deniss87/JSFEEN2024Q4/tree/christmas-shop-part3"
+                >Christmas Shop</a
+              >
+            </td>
+            <td>HTML, CSS/Sass, JavaScript, Figma</td>
+            <td>
+              <a
+                href="https://github.com/deniss87/JSFEEN2024Q4/blob/christmas-shop-part3/README.md"
+                >📘 README</a
+              >
+              ·
+              <a href="https://deniss87.github.io/JSFEEN2024Q4/christmas-shop/"
+                >🌍 Live Demo</a
+              >
+            </td>
+          </tr>
+          <tr class="project-row js">
+            <td>
+              <a href="https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/"
+                >Hangman</a
+              >
+            </td>
+            <td>HTML, CSS/Sass, JavaScript</td>
+            <td>
+              <a
+                href="https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/README.md"
+                >📘 README</a
+              >
+              ·
+              <a href="https://deniss87.github.io/JSFEEN2024Q4/hangman/"
+                >🌍 Live Demo</a
+              >
+            </td>
+          </tr>
+          <tr class="project-row js">
+            <td>
+              <a href="https://github.com/deniss87/JSFEEN2024Q4/tree/news-api"
+                >News API</a
+              >
+            </td>
+            <td>HTML, CSS, TypeScript, Webpack, REST API</td>
+            <td>
+              <a
+                href="https://github.com/deniss87/JSFEEN2024Q4/blob/news-api/README.md"
+                >📘 README</a
+              >
+              ·
+              <a href="https://deniss87.github.io/JSFEEN2024Q4/news-api/"
+                >🌍 Live Demo</a
+              >
+            </td>
+          </tr>
+          <tr class="project-row js">
+            <td>
+              <a href="https://github.com/deniss87/JSFEEN2024Q4/tree/async-race"
+                >Async Race</a
+              >
+            </td>
+            <td>
+              HTML, CSS, TypeScript, REST API, Web Animations API, Webpack
+            </td>
+            <td>
+              <a
+                href="https://github.com/deniss87/JSFEEN2024Q4/blob/async-race/README.md"
+                >📘 README</a
+              >
+              ·
+              <a href="https://deniss87.github.io/JSFEEN2024Q4/async-race/"
+                >🌍 Live Demo</a
+              >
+            </td>
+          </tr>
+          <tr class="project-row js">
+            <td>
+              <a href="https://github.com/deniss87/JSFEEN2024Q4/tree/fun-chat"
+                >Fun Chat</a
+              >
+            </td>
+            <td>HTML, CSS, TypeScript, WebSocket, SPA, Webpack</td>
+            <td>
+              <a
+                href="https://github.com/deniss87/JSFEEN2024Q4/blob/fun-chat/README.md"
+                >📘 README</a
+              >
+              ·
+              <a href="https://deniss87-fun-chat.netlify.app/">🌍 Live Demo</a>
+            </td>
+          </tr>
+
+          <!-- React / Next.js -->
+          <tr class="project-row react">
+            <td>
+              <a href="https://github.com/deepcd87/rss-ecomm-task"
+                >eCommerce App (Teamwork)</a
+              >
+            </td>
+            <td>React, TypeScript, Commercetools API, SPA, Webpack</td>
+            <td>
+              <a
+                href="https://github.com/deepcd87/rss-ecomm-task/blob/main/README.md"
+                >📘 README</a
+              >
+              ·
+              <a
+                href="https://github.com/deepcd87/rss-ecomm-task/pulls?page=1&q=is%3Apr+is%3Aclosed"
+                >🔄 Pull requests</a
+              >
+            </td>
+          </tr>
+          <tr class="project-row react">
+            <td>
+              <a
+                href="https://github.com/deniss87/REACT2025Q3/tree/pokemon-react"
+                >Pokémon Dashboard</a
+              >
+            </td>
+            <td>
+              React, Router, TypeScript, Tailwind, Zustand, TanStack Query,
+              Vitest
+            </td>
+            <td>
+              <a
+                href="https://github.com/deniss87/REACT2025Q3/blob/pokemon-react/README.md"
+                >📘 README</a
+              >
+              ·
+              <a href="https://rss-react-project.netlify.app/">🌍 Live Demo</a>
+            </td>
+          </tr>
+          <tr class="project-row react">
+            <td>
+              <a href="https://github.com/deepcd87/rest-client-app"
+                >Rest Client (Teamwork)</a
+              >
+            </td>
+            <td>
+              Next.js, App Router, TypeScript, Tailwind, NextAuth.js, Prisma,
+              next-intl, Zod, Vitest
+            </td>
+            <td>
+              <a
+                href="https://github.com/deepcd87/rest-client-app/blob/main/README.md"
+                >📘 README</a
+              >
+              ·
+              <a href="https://github.com/deepcd87/rest-client-app/pull/1"
+                >🔄 Pull requests</a
+              >
+            </td>
+          </tr>
+
+          <!-- PHP -->
+          <tr class="project-row php">
+            <td>
+              <a href="https://github.com/deniss87/learning-php-oop-app"
+                >Product Management App</a
+              >
+            </td>
+            <td>PHP, OOP, MySQL</td>
+            <td>
+              <a
+                href="https://github.com/deniss87/learning-php-oop-app/blob/main/README.md"
+                >📘 README</a
+              >
+              ·
+              <a href="https://php-oop-crud.42web.io/">🌍 Live Demo</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <hr />
+
+      <!-- Contact -->
+      <div class="section contact">
+        <h2>📫 Contact</h2>
         <p>
-          👉 <a href="https://github.com/deniss87">github.com/yourusername</a>
+          <a href="mailto:deniss.patancevs@gmail.com" target="_blank">
+            <img
+              src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"
+              height="24"
+            />
+          </a>
+          <a href="https://linkedin.com/in/deniss-patancevs" target="_blank">
+            <img
+              src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white"
+              height="24"
+            />
+          </a>
+          <a href="https://github.com/deniss87" target="_blank">
+            <img
+              src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
+              height="24"
+            />
+          </a>
         </p>
       </div>
     </div>
+
+    <!-- JS for filtering -->
+    <script>
+      const buttons = document.querySelectorAll(".filter-btn");
+      const rows = document.querySelectorAll(".project-row");
+
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          buttons.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+
+          const filter = btn.getAttribute("data-filter");
+          rows.forEach((row) => {
+            if (filter === "all" || row.classList.contains(filter)) {
+              row.classList.remove("hidden");
+            } else {
+              row.classList.add("hidden");
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
