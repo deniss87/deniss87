@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deniss Patancevs | Web Developer</title>
+    <title>Deniss Patancevs | Web Developer Portfolio</title>
 
     <!-- Google Analytics -->
     <script
@@ -20,111 +20,8 @@
     </script>
 
     <!-- Styles -->
-    <style>
-      body {
-        font-family:
-          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-          Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        background: #0d1117;
-        color: #c9d1d9;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-      }
-      a {
-        color: #58a6ff;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      .container {
-        max-width: 960px;
-        margin: 50px auto;
-        padding: 20px;
-      }
-      h1,
-      h2,
-      h3 {
-        color: #f0f6fc;
-      }
-      h1 {
-        font-size: 2.5rem;
-        margin-bottom: 0.5em;
-        text-align: center;
-      }
-      h2 {
-        font-size: 1.8rem;
-        margin-top: 2em;
-        margin-bottom: 0.5em;
-      }
-      h3 {
-        font-size: 1.4rem;
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
-      }
-      .avatar {
-        width: 150px;
-        border-radius: 50%;
-        margin-bottom: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .section {
-        margin-bottom: 40px;
-      }
-      .tech-icons img {
-        margin: 3px;
-        vertical-align: middle;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 10px;
-      }
-      th,
-      td {
-        padding: 8px;
-        text-align: left;
-        border-bottom: 1px solid #30363d;
-      }
-      th {
-        background: #161b22;
-        color: #58a6ff;
-      }
-      td a {
-        color: #58a6ff;
-      }
-      .contact a img {
-        margin-right: 10px;
-        vertical-align: middle;
-      }
-      hr {
-        border: 1px solid #30363d;
-        margin: 40px 0;
-      }
-      .filter-buttons {
-        margin-bottom: 15px;
-        text-align: center;
-      }
-      .filter-buttons button {
-        background: #161b22;
-        color: #58a6ff;
-        border: none;
-        padding: 6px 12px;
-        margin: 3px;
-        cursor: pointer;
-        border-radius: 4px;
-      }
-      .filter-buttons button.active {
-        background: #58a6ff;
-        color: #0d1117;
-      }
-      .hidden {
-        display: none;
-      }
-    </style>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="scripts/main.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -145,7 +42,7 @@
 
       <!-- Tech Stack -->
       <div class="section">
-        <h2>🧰 My Tech Stack</h2>
+        <h2 class="section-title">🧰 My Tech Stack</h2>
         <h3>🎨 Frontend</h3>
         <p class="tech-icons">
           <img
@@ -243,7 +140,7 @@
 
       <!-- Courses -->
       <div class="section">
-        <h2>📚 Courses</h2>
+        <h2 class="section-title">📚 Courses</h2>
         <table>
           <tr>
             <th>Course</th>
@@ -257,12 +154,13 @@
               >
             </td>
             <td>26-week program followed by a 7-week final team project</td>
-            <td>
+            <!-- <td>
               <a
                 href="https://github.com/deniss87/JSFEEN2024Q4/blob/main/README.md"
                 >📘 README</a
               >
-              ·
+            </td> -->
+            <td>
               <a href="https://rs.school/courses/javascript"
                 >🌍 Course Website</a
               >
@@ -275,12 +173,13 @@
               >
             </td>
             <td>8-week program with hands-on projects</td>
-            <td>
+            <!-- <td>
               <a
                 href="https://github.com/deniss87/REACT2025Q3/blob/main/README.md"
                 >📘 README</a
               >
-              ·
+            </td> -->
+            <td>
               <a href="https://rs.school/courses/reactjs">🌍 Course Website</a>
             </td>
           </tr>
@@ -292,12 +191,13 @@
               >
             </td>
             <td>PHP, MySQL, JavaScript specialization</td>
-            <td>
+            <!-- <td>
               <a
                 href="https://github.com/deniss87/course-web-applications-for-everybody/blob/main/README.md"
                 >📘 README</a
               >
-              ·
+            </td> -->
+            <td>
               <a
                 href="https://www.coursera.org/specializations/web-applications"
                 >🌍 Course Website</a
@@ -311,7 +211,7 @@
 
       <!-- Projects -->
       <div class="section">
-        <h2>🚀 Projects</h2>
+        <h2 class="section-title">🚀 Projects</h2>
 
         <!-- Filter buttons -->
         <div class="filter-buttons">
@@ -342,7 +242,6 @@
                 href="https://github.com/deniss87/JSFEEN2024Q4/blob/christmas-shop-part3/README.md"
                 >📘 README</a
               >
-              ·
               <a href="https://deniss87.github.io/JSFEEN2024Q4/christmas-shop/"
                 >🌍 Live Demo</a
               >
@@ -360,7 +259,6 @@
                 href="https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/README.md"
                 >📘 README</a
               >
-              ·
               <a href="https://deniss87.github.io/JSFEEN2024Q4/hangman/"
                 >🌍 Live Demo</a
               >
@@ -378,7 +276,6 @@
                 href="https://github.com/deniss87/JSFEEN2024Q4/blob/news-api/README.md"
                 >📘 README</a
               >
-              ·
               <a href="https://deniss87.github.io/JSFEEN2024Q4/news-api/"
                 >🌍 Live Demo</a
               >
@@ -398,7 +295,6 @@
                 href="https://github.com/deniss87/JSFEEN2024Q4/blob/async-race/README.md"
                 >📘 README</a
               >
-              ·
               <a href="https://deniss87.github.io/JSFEEN2024Q4/async-race/"
                 >🌍 Live Demo</a
               >
@@ -416,7 +312,6 @@
                 href="https://github.com/deniss87/JSFEEN2024Q4/blob/fun-chat/README.md"
                 >📘 README</a
               >
-              ·
               <a href="https://deniss87-fun-chat.netlify.app/">🌍 Live Demo</a>
             </td>
           </tr>
@@ -434,7 +329,6 @@
                 href="https://github.com/deepcd87/rss-ecomm-task/blob/main/README.md"
                 >📘 README</a
               >
-              ·
               <a
                 href="https://github.com/deepcd87/rss-ecomm-task/pulls?page=1&q=is%3Apr+is%3Aclosed"
                 >🔄 Pull requests</a
@@ -457,7 +351,6 @@
                 href="https://github.com/deniss87/REACT2025Q3/blob/pokemon-react/README.md"
                 >📘 README</a
               >
-              ·
               <a href="https://rss-react-project.netlify.app/">🌍 Live Demo</a>
             </td>
           </tr>
@@ -476,7 +369,6 @@
                 href="https://github.com/deepcd87/rest-client-app/blob/main/README.md"
                 >📘 README</a
               >
-              ·
               <a href="https://github.com/deepcd87/rest-client-app/pull/1"
                 >🔄 Pull requests</a
               >
@@ -496,7 +388,6 @@
                 href="https://github.com/deniss87/learning-php-oop-app/blob/main/README.md"
                 >📘 README</a
               >
-              ·
               <a href="https://php-oop-crud.42web.io/">🌍 Live Demo</a>
             </td>
           </tr>
@@ -507,7 +398,7 @@
 
       <!-- Contact -->
       <div class="section contact">
-        <h2>📫 Contact</h2>
+        <h2 class="section-title">📫 Contact</h2>
         <p>
           <a href="mailto:deniss.patancevs@gmail.com" target="_blank">
             <img
@@ -530,27 +421,5 @@
         </p>
       </div>
     </div>
-
-    <!-- JS for filtering -->
-    <script>
-      const buttons = document.querySelectorAll(".filter-btn");
-      const rows = document.querySelectorAll(".project-row");
-
-      buttons.forEach((btn) => {
-        btn.addEventListener("click", () => {
-          buttons.forEach((b) => b.classList.remove("active"));
-          btn.classList.add("active");
-
-          const filter = btn.getAttribute("data-filter");
-          rows.forEach((row) => {
-            if (filter === "all" || row.classList.contains(filter)) {
-              row.classList.remove("hidden");
-            } else {
-              row.classList.add("hidden");
-            }
-          });
-        });
-      });
-    </script>
   </body>
 </html>
