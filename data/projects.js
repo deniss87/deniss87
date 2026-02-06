@@ -2,28 +2,55 @@ export const projects = [
   {
     title: "Christmas Shop",
     category: ["js"],
-    technologies: ["HTML", "CSS/Sass", "JavaScript", "Figma"],
-    repo: "https://github.com/deniss87/JSFEEN2024Q4/tree/christmas-shop-part3",
-    demo: "https://deniss87.github.io/JSFEEN2024Q4/christmas-shop/",
+    stack: ["HTML", "CSS/Sass", "JavaScript", "Figma"],
+    links: [
+      {
+        tag: "repo",
+        url: "https://github.com/deniss87/JSFEEN2024Q4/tree/christmas-shop-part3",
+      },
+      {
+        tag: "demo",
+        url: "https://deniss87.github.io/JSFEEN2024Q4/christmas-shop/",
+      },
+    ],
   },
+
   {
     title: "Hangman",
     category: ["js"],
-    technologies: ["HTML", "CSS/Sass", "JavaScript"],
-    repo: "https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/",
-    demo: "https://deniss87.github.io/JSFEEN2024Q4/hangman/",
+    stack: ["HTML", "CSS/Sass", "JavaScript"],
+    links: [
+      {
+        tag: "repo",
+        url: "https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/",
+      },
+      {
+        tag: "demo",
+        url: "https://deniss87.github.io/JSFEEN2024Q4/hangman/",
+      },
+    ],
   },
+
   {
     title: "News API",
     category: ["js", "rest"],
-    technologies: ["HTML", "CSS", "TypeScript", "Webpack", "REST API"],
-    repo: "https://github.com/deniss87/JSFEEN2024Q4/tree/news-api",
-    demo: "https://deniss87.github.io/JSFEEN2024Q4/news-api/",
+    stack: ["HTML", "CSS", "TypeScript", "Webpack", "REST API"],
+    links: [
+      {
+        tag: "repo",
+        url: "https://github.com/deniss87/JSFEEN2024Q4/tree/news-api",
+      },
+      {
+        tag: "demo",
+        url: "https://deniss87.github.io/JSFEEN2024Q4/news-api/",
+      },
+    ],
   },
+
   {
     title: "Async Race",
     category: ["js", "rest"],
-    technologies: [
+    stack: [
       "HTML",
       "CSS",
       "TypeScript",
@@ -31,42 +58,60 @@ export const projects = [
       "Web Animations API",
       "Webpack",
     ],
-    repo: "https://github.com/deniss87/JSFEEN2024Q4/tree/async-race",
-    demo: "https://deniss87.github.io/JSFEEN2024Q4/async-race/",
+    links: [
+      {
+        tag: "repo",
+        url: "https://github.com/deniss87/JSFEEN2024Q4/tree/async-race",
+      },
+      {
+        tag: "demo",
+        url: "https://deniss87.github.io/JSFEEN2024Q4/async-race/",
+      },
+    ],
   },
+
   {
     title: "Fun Chat",
     category: ["js"],
-    technologies: [
-      "HTML",
-      "CSS",
-      "TypeScript",
-      "WebSocket",
-      "SPA",
-      "Webpack",
+    stack: ["HTML", "CSS", "TypeScript", "WebSocket", "SPA", "Webpack"],
+    links: [
+      {
+        tag: "repo",
+        url: "https://github.com/deniss87/JSFEEN2024Q4/tree/fun-chat",
+      },
+      {
+        tag: "demo",
+        url: "https://deniss87-fun-chat.netlify.app/",
+      },
     ],
-    repo: "https://github.com/deniss87/JSFEEN2024Q4/tree/fun-chat",
-    demo: "https://deniss87-fun-chat.netlify.app/",
   },
+
   {
     title: "eCommerce App (Teamwork)",
     category: ["react", "rest"],
-    technologies: [
+    stack: [
       "React",
       "TypeScript",
       "Commercetools API",
       "SPA",
       "Webpack",
     ],
-    repo: "https://github.com/deepcd87/rss-ecomm-task",
-    extra:
-      "https://github.com/deepcd87/rss-ecomm-task/pulls?page=1&q=is%3Apr+is%3Aclosed",
-    extraLabel: "🔄 Pull requests",
+    links: [
+      {
+        tag: "repo",
+        url: "https://github.com/deepcd87/rss-ecomm-task",
+      },
+      {
+        tag: "pr",
+        url: "https://github.com/deepcd87/rss-ecomm-task/pulls?page=1&q=is%3Apr+is%3Aclosed",
+      },
+    ],
   },
+
   {
     title: "Pokémon Dashboard",
     category: ["react", "rest"],
-    technologies: [
+    stack: [
       "React",
       "TypeScript",
       "Tailwind",
@@ -74,13 +119,22 @@ export const projects = [
       "TanStack Query",
       "Vitest",
     ],
-    repo: "https://github.com/deniss87/REACT2025Q3/tree/pokemon-react",
-    demo: "https://rss-react-project.netlify.app/",
+    links: [
+      {
+        tag: "repo",
+        url: "https://github.com/deniss87/REACT2025Q3/tree/pokemon-react",
+      },
+      {
+        tag: "demo",
+        url: "https://rss-react-project.netlify.app/",
+      },
+    ],
   },
+
   {
     title: "Rest Client (Teamwork)",
     category: ["react", "rest"],
-    technologies: [
+    stack: [
       "Next.js",
       "TypeScript",
       "Tailwind",
@@ -89,16 +143,31 @@ export const projects = [
       "Zod",
       "Vitest",
     ],
-    repo: "https://github.com/deepcd87/rest-client-app",
-    extra:
-      "https://github.com/deepcd87/rest-client-app/pull/1",
-    extraLabel: "🔄 Pull requests",
+    links: [
+      {
+        tag: "repo",
+        url: "https://github.com/deepcd87/rest-client-app",
+      },
+      {
+        tag: "pr",
+        url: "https://github.com/deepcd87/rest-client-app/pull/1",
+      },
+    ],
   },
+
   {
     title: "Product Management App",
     category: ["php"],
-    technologies: ["PHP", "OOP", "MySQL"],
-    repo: "https://github.com/deniss87/learning-php-oop-app",
-    demo: "https://php-oop-crud.42web.io/",
+    stack: ["PHP", "OOP", "MySQL"],
+    links: [
+      {
+        tag: "repo",
+        url: "https://github.com/deniss87/learning-php-oop-app",
+      },
+      {
+        tag: "demo",
+        url: "https://php-oop-crud.42web.io/",
+      },
+    ],
   },
 ];

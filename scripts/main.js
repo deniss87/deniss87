@@ -122,3 +122,13 @@ document.querySelectorAll(".filter-btn").forEach((btn) => {
     renderProjects(projects, btn.dataset.filter);
   });
 });
+
+// Details rendering
+export const renderDetails = (items) => `
+<details>
+  <summary><b>Course topics</b></summary>
+  <ul>
+    ${items.map(item => `<li>${item}</li>`).join("")}
+  </ul>
+</details>
+`;
