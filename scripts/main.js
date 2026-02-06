@@ -2,7 +2,18 @@ import { techStack } from "../data/techStack.js";
 import { courses } from "../data/courses.js";
 import { projects } from "../data/projects.js";
 
-// Tech stack section render
+
+// DETAILS RENDER HELPER
+const renderDetails = (items) => `
+<details>
+  <summary><b>Course topics</b></summary>
+  <ul>
+    ${items.map((item) => `<li>${item}</li>`).join("")}
+  </ul>
+</details>
+`;
+
+// TECH STACK SECTION RENDER
 function renderTechStack(stack) {
   const container = document.getElementById("tech-stack-content");
   if (!container) return;
@@ -27,9 +38,10 @@ function renderTechStack(stack) {
 
 renderTechStack(techStack);
 
-// Cources section render
+// COURCES SECTION RENDER
 function renderCourses(courses) {
   const table = document.getElementById("courses-content");
+  if (!table) return;
 
   table.innerHTML = `
     <tr>
@@ -42,17 +54,21 @@ function renderCourses(courses) {
   courses.forEach((course) => {
     const row = document.createElement("tr");
 
+    // Links
+    const mainLink = course.links?.find(l => l.tag === "repo")?.url || course.repo || "#";
+    const websiteLink = course.links?.find(l => l.tag === "website")?.url || course.website || "";
+
+    // Rows
     row.innerHTML = `
       <td>
-        <a href="${course.repo}" target="_blank">
-          ${course.title}
-        </a>
+        <a href="${mainLink}" target="_blank">${course.title}</a>
       </td>
-      <td>${course.description}</td>
       <td>
-        <a href="${course.website}" target="_blank">
-          🌍 Course Website
-        </a>
+        ${course.description}
+        ${course.details ? renderDetails(course.details) : ""}
+      </td>
+      <td>
+        ${websiteLink ? `<a href="${websiteLink}" target="_blank">🌍 Course Website</a>` : ""}
       </td>
     `;
 
@@ -62,45 +78,37 @@ function renderCourses(courses) {
 
 renderCourses(courses);
 
-// Projects section render
+// PROJECTS SECTION RENDER
 function renderProjects(projects, filter = "all") {
   const table = document.getElementById("projects-content");
+  if (!table) return;
 
   table.innerHTML = `
     <tr>
       <th>Project</th>
-      <th>Technologies</th>
+      <th>Stack</th>
       <th>Links</th>
     </tr>
   `;
 
   projects
-    .filter(
-      (project) =>
-        filter === "all" || project.category.includes(filter)
-    )
+    .filter((project) => filter === "all" || project.category.includes(filter))
     .forEach((project) => {
       const row = document.createElement("tr");
 
+      const links = project.links || [];
+      const mainLink = links.find(l => l.tag === "repo")?.url || "#";
+      const secondaryLink =
+        links.find(l => l.tag === "demo" || l.tag === "pr")
+          ? `<a href="${links.find(l => l.tag === "demo" || l.tag === "pr").url}" target="_blank">${
+              links.find(l => l.tag === "demo") ? "🌍 Live Demo" : "🔄 Pull Requests"
+            }</a>`
+          : "";
+
       row.innerHTML = `
-        <td>
-          <a href="${project.repo}" target="_blank">
-            ${project.title}
-          </a>
-        </td>
-        <td>${project.technologies.join(", ")}</td>
-        <td>
-          ${
-            project.demo
-              ? `<a href="${project.demo}" target="_blank">🌍 Live Demo</a>`
-              : ""
-          }
-          ${
-            project.extra
-              ? `<br /><a href="${project.extra}" target="_blank">${project.extraLabel}</a>`
-              : ""
-          }
-        </td>
+        <td><a href="${mainLink}" target="_blank">${project.title}</a></td>
+        <td>${project.stack.join(", ")}</td>
+        <td>${secondaryLink}</td>
       `;
 
       table.appendChild(row);
@@ -110,7 +118,7 @@ function renderProjects(projects, filter = "all") {
 renderProjects(projects);
 
 
-// Table filtering
+// TABLE FILTERING
 
 document.querySelectorAll(".filter-btn").forEach((btn) => {
   btn.addEventListener("click", () => {
@@ -123,12 +131,4 @@ document.querySelectorAll(".filter-btn").forEach((btn) => {
   });
 });
 
-// Details rendering
-export const renderDetails = (items) => `
-<details>
-  <summary><b>Course topics</b></summary>
-  <ul>
-    ${items.map(item => `<li>${item}</li>`).join("")}
-  </ul>
-</details>
-`;
+
