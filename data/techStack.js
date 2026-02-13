@@ -106,24 +106,53 @@ export const techStack = [
       },
     ],
   },
-
+  {
+  title: "🚀 DevOps & Infrastructure",
+  items: [
+    {
+      name: "Docker",
+      badge:
+        "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white",
+    },
+    {
+      name: "GitHub Actions",
+      badge:
+        "https://img.shields.io/badge/GitHub%20Actions-181717?logo=github&logoColor=white",
+    },
+      {
+      name: "GitHub Container Registry",
+      badge:
+        "https://img.shields.io/badge/GHCR-181717?logo=github&logoColor=white",
+    },
+    {
+      name: "CI/CD",
+      badge:
+        "https://img.shields.io/badge/CI%2FCD-0A66C2?logo=githubactions&logoColor=white",
+    },
+    {
+      name: "Nginx",
+      badge:
+        "https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white",
+    },
+    {
+      name: "VPS Deployment",
+      badge:
+        "https://img.shields.io/badge/VPS-orange?logo=linux&logoColor=black",
+    },
+  ],
+  },
   {
     title: "⚙️ Tools & Build Systems",
     items: [
       {
-        name: "Docker",
+        name: "Webpack",
         badge:
-          "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white",
+          "https://img.shields.io/badge/Webpack-1C78C0?logo=webpack&logoColor=white",
       },
       {
         name: "Vite",
         badge:
           "https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=yellow",
-      },
-      {
-        name: "Webpack",
-        badge:
-          "https://img.shields.io/badge/Webpack-1C78C0?logo=webpack&logoColor=white",
       },
       {
         name: "Git",
