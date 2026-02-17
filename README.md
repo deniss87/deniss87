@@ -36,13 +36,9 @@ I'm eager to contribute to real projects, collaborate with developers, and conti
 
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) 
 
-### 🚀 DevOps & Infrastructure
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-181717?logo=github&logoColor=white) ![GitHub Container Registry](https://img.shields.io/badge/GHCR-181717?logo=github&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI%2FCD-0A66C2?logo=githubactions&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white) ![VPS Deployment](https://img.shields.io/badge/VPS-orange?logo=linux&logoColor=black) 
-
 ### ⚙️ Tools & Build Systems
 
-![Webpack](https://img.shields.io/badge/Webpack-1C78C0?logo=webpack&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=yellow) ![Git](https://img.shields.io/badge/Git-f05033?logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) ![Bitbucket](https://img.shields.io/badge/Bitbucket-2684ff?logo=bitbucket&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052cc?logo=jira&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-f24e1e?logo=figma&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black) ![Husky](https://img.shields.io/badge/Husky-000000?logo=github&logoColor=white) 
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=yellow) ![Webpack](https://img.shields.io/badge/Webpack-1C78C0?logo=webpack&logoColor=white) ![Git](https://img.shields.io/badge/Git-f05033?logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) ![Bitbucket](https://img.shields.io/badge/Bitbucket-2684ff?logo=bitbucket&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052cc?logo=jira&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-f24e1e?logo=figma&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black) ![Husky](https://img.shields.io/badge/Husky-000000?logo=github&logoColor=white) 
 
 ### 🧠 Architecture & Principles
 
