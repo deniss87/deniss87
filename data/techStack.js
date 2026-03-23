@@ -42,6 +42,11 @@ export const techStack = [
         badge:
           "https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white",
       },
+      {
+        name: "SvelteKit",
+        badge:
+          "https://img.shields.io/badge/SvelteKit-FF3E00?logo=svelte&logoColor=white",
+      },
     ],
   },
 
@@ -65,8 +70,7 @@ export const techStack = [
       },
       {
         name: "REST API",
-        badge:
-          "https://img.shields.io/badge/REST%20API-0052CC?logo=api",
+        badge: "https://img.shields.io/badge/REST%20API-0052CC?logo=api",
       },
       {
         name: "GraphQL",
@@ -107,39 +111,39 @@ export const techStack = [
     ],
   },
   {
-  title: "🚀 DevOps & Infrastructure",
-  items: [
-    {
-      name: "Docker",
-      badge:
-        "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white",
-    },
-    {
-      name: "GitHub Actions",
-      badge:
-        "https://img.shields.io/badge/GitHub%20Actions-181717?logo=github&logoColor=white",
-    },
+    title: "🚀 DevOps & Infrastructure",
+    items: [
       {
-      name: "GitHub Container Registry",
-      badge:
-        "https://img.shields.io/badge/GHCR-181717?logo=github&logoColor=white",
-    },
-    {
-      name: "CI/CD",
-      badge:
-        "https://img.shields.io/badge/CI%2FCD-0A66C2?logo=githubactions&logoColor=white",
-    },
-    {
-      name: "Nginx",
-      badge:
-        "https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white",
-    },
-    {
-      name: "VPS Deployment",
-      badge:
-        "https://img.shields.io/badge/VPS-orange?logo=linux&logoColor=black",
-    },
-  ],
+        name: "Docker",
+        badge:
+          "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white",
+      },
+      {
+        name: "GitHub Actions",
+        badge:
+          "https://img.shields.io/badge/GitHub%20Actions-181717?logo=github&logoColor=white",
+      },
+      {
+        name: "GitHub Container Registry",
+        badge:
+          "https://img.shields.io/badge/GHCR-181717?logo=github&logoColor=white",
+      },
+      {
+        name: "CI/CD",
+        badge:
+          "https://img.shields.io/badge/CI%2FCD-0A66C2?logo=githubactions&logoColor=white",
+      },
+      {
+        name: "Nginx",
+        badge:
+          "https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white",
+      },
+      {
+        name: "VPS Deployment",
+        badge:
+          "https://img.shields.io/badge/VPS-orange?logo=linux&logoColor=black",
+      },
+    ],
   },
   {
     title: "⚙️ Tools & Build Systems",
@@ -202,18 +206,15 @@ export const techStack = [
     items: [
       {
         name: "OOP",
-        badge:
-          "https://img.shields.io/badge/OOP-4A148C?logo=code",
+        badge: "https://img.shields.io/badge/OOP-4A148C?logo=code",
       },
       {
         name: "MVC",
-        badge:
-          "https://img.shields.io/badge/MVC-00695C?logo=layers",
+        badge: "https://img.shields.io/badge/MVC-00695C?logo=layers",
       },
       {
         name: "Clean Code",
-        badge:
-          "https://img.shields.io/badge/Clean%20Code-2E7D32?logo=code",
+        badge: "https://img.shields.io/badge/Clean%20Code-2E7D32?logo=code",
       },
     ],
   },
