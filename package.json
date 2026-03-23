@@ -4,7 +4,8 @@
   "description": "Deniss Patancevs Portfolio",
   "main": "index.js",
   "scripts": {
-    "readme": "node scripts/generate-readme.js",
+    "generate-readme": "node scripts/generate-readme.js",
+    "generate-html": "node scripts/generate-html.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

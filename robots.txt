@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://deniss87.github.io/deniss87/sitemap.xml
