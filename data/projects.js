@@ -89,13 +89,7 @@ export const projects = [
   {
     title: "eCommerce App (Teamwork)",
     category: ["react", "rest"],
-    stack: [
-      "React",
-      "TypeScript",
-      "Commercetools API",
-      "SPA",
-      "Webpack",
-    ],
+    stack: ["React", "TypeScript", "Commercetools API", "SPA", "Webpack"],
     links: [
       {
         tag: "repo",
@@ -133,7 +127,7 @@ export const projects = [
 
   {
     title: "Rest Client (Teamwork)",
-    category: ["react", "rest"],
+    category: ["react", "nextjs", "rest"],
     stack: [
       "Next.js",
       "TypeScript",
