@@ -17,7 +17,7 @@ function renderTechStack() {
         ${section.items
           .map(
             (i) =>
-              ` <a href="#projects-section"><img src="${i.badge}" alt="${i.name}" class="tech-badge"/></a>`,
+              ` <a href="#projects-section"><img src="${i.badge}" alt="${i.name}" class="tech-badge" loading="lazy"/></a>`,
           )
           .join(" ")}
       </p>
@@ -37,9 +37,9 @@ function renderCourses() {
 
       return `
 <tr>
-<td><a href="${repo}"><b>${course.title}</b></a></td>
+<td><a href="${repo}" target="_blank"><b>${course.title}</b></a></td>
 <td>${course.description}</td>
-<td><a href="${website}">Course website</a></td>
+<td><a href="${website}" target="_blank">Course website</a></td>
 </tr>
 `;
     })
@@ -127,19 +127,15 @@ function renderProjects() {
     .map((project) => {
       // Links
       const repo = project.links.find((l) => l.tag === "repo")?.url || "#";
-
       const linkObj =
         project.links.find((l) => l.tag === "demo") ||
         project.links.find((l) => l.tag === "pr");
 
-      const url = linkObj?.url || "#";
-
-      const linkText =
-        linkObj?.tag === "demo"
-          ? "🌍 Live Demo"
-          : linkObj?.tag === "pr"
-            ? "📋 View PR"
-            : "—";
+      const linkHtml = linkObj
+        ? `<a href="${linkObj.url}" target="_blank">${linkObj.tag === "demo" ? "🌍 Live Demo" : "📋 View PR"}</a>`
+        : repo !== "#"
+          ? `<a href="${repo}" target="_blank" class="table-link-repo">👨🏻‍💻 Repository</a>`
+          : "—";
 
       // Stack
       const mainStack =
@@ -160,10 +156,10 @@ function renderProjects() {
         : "";
 
       return `
-<tr data-category="${categoryAttribute}">
-<td><a href="${repo}"><b>${project.title}</b></a></td>
+<tr data-category="${categoryAttribute}" data-date="${project.date || ""}">
+<td><a href="${repo}" target="_blank"><b>${project.title}</b></a></td>
 <td>${fullStackHtml || "—"}</td>
-<td>${url !== "#" ? `<a href="${url}">${linkText}</a>` : "—"}</td>
+<td>${linkHtml}</td>
 </tr>
 `;
     })

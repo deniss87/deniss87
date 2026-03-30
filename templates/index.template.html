@@ -134,14 +134,22 @@
       <section class="section" id="projects-section">
         <h2 class="section-title">🚀 All Projects</h2>
         <div class="filter-container">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="js">JS</button>
-          <button class="filter-btn" data-filter="react">
-            React / Next.js
-          </button>
-          <button class="filter-btn" data-filter="php">PHP / Laravel</button>
-          <button class="filter-btn" data-filter="rest">REST API</button>
+          <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="js">JS</button>
+            <button class="filter-btn" data-filter="react">
+              React / Next.js
+            </button>
+            <button class="filter-btn" data-filter="php">PHP / Laravel</button>
+            <button class="filter-btn" data-filter="rest">REST API</button>
+          </div>
+          <div class="sort-group">
+            <button id="sort-date-btn" class="sort-btn active">
+              New first
+            </button>
+          </div>
         </div>
+
         <div class="projects-wrapper">
           <table>
             <thead>

@@ -3,7 +3,7 @@ export const projects = [
     title: "Christmas Shop",
     category: ["js"],
     featured: false,
-    date: "2024-01-01",
+    date: "2024-12-03",
     mainStack: ["HTML", "JavaScript"],
     stack: ["CSS / Sass", "Figma"],
     links: [
@@ -22,7 +22,7 @@ export const projects = [
     title: "Hangman",
     category: ["js"],
     featured: false,
-    date: "2024-01-01",
+    date: "2025-01-29",
     mainStack: ["JavaScript"],
     stack: ["HTML", "CSS / Sass"],
     links: [
@@ -41,7 +41,7 @@ export const projects = [
     title: "News API",
     category: ["js", "rest"],
     featured: false,
-    date: "2024-01-01",
+    date: "2025-03-20",
     mainStack: ["TypeScript"],
     stack: ["HTML", "CSS", "Webpack", "REST API"],
     links: [
@@ -60,7 +60,7 @@ export const projects = [
     title: "Async Race",
     category: ["js", "rest"],
     featured: false,
-    date: "2024-01-01",
+    date: "2025-05-01",
     mainStack: ["TypeScript"],
     stack: ["HTML", "CSS", "REST API", "Web Animations API", "Webpack"],
     links: [
@@ -69,8 +69,8 @@ export const projects = [
         url: "https://github.com/deniss87/JSFEEN2024Q4/tree/async-race",
       },
       {
-        tag: "demo",
-        url: "https://deniss87.github.io/JSFEEN2024Q4/async-race/",
+        tag: "github",
+        url: "https://github.com/deniss87/JSFEEN2024Q4/tree/async-race",
       },
     ],
   },
@@ -79,7 +79,7 @@ export const projects = [
     title: "Fun Chat",
     category: ["js"],
     featured: false,
-    date: "2024-01-01",
+    date: "2025-05-07",
     mainStack: ["TypeScript", "WebSocket"],
     stack: ["HTML", "CSS", "SPA", "Webpack"],
     links: [
@@ -99,7 +99,7 @@ export const projects = [
     appName: "eCommerce Shop",
     category: ["react", "rest"],
     featured: true,
-    date: "2024-01-01",
+    date: "2025-06-28",
     mainStack: ["React"],
     stack: ["TypeScript", "Commercetools API", "SPA", "Webpack"],
     links: [
@@ -118,7 +118,7 @@ export const projects = [
     title: "Pokémon Dashboard",
     category: ["react", "rest"],
     featured: false,
-    date: "2024-01-01",
+    date: "2025-08-10",
     mainStack: ["React"],
     stack: ["TypeScript", "Tailwind", "Zustand", "TanStack Query", "Vitest"],
     links: [
@@ -138,7 +138,7 @@ export const projects = [
     appName: "REST CLIENT",
     category: ["react", "nextjs", "rest"],
     featured: true,
-    date: "2024-01-01",
+    date: "2025-11-28",
     mainStack: ["Next.js"],
     stack: ["TypeScript", "Tailwind", "NextAuth.js", "Prisma", "Zod", "Vitest"],
     links: [
@@ -156,8 +156,8 @@ export const projects = [
   {
     title: "Product Management App",
     category: ["php"],
-    featured: true,
-    date: "2024-01-01",
+    featured: false,
+    date: "2025-12-12",
     mainStack: ["PHP", "MySQL"],
     stack: ["OOP"],
     links: [
