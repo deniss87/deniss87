@@ -156,7 +156,7 @@ export const projects = [
   {
     title: "Product Management App",
     category: ["php"],
-    featured: false,
+    featured: true,
     date: "2024-01-01",
     mainStack: ["PHP", "MySQL"],
     stack: ["OOP"],
