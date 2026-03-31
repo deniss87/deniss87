@@ -175,7 +175,7 @@ export const projects = [
   {
     title: "Laravel CRM",
     slug: "laravel-crm",
-    category: ["php", "laravel", "postgresql"],
+    category: ["php", "laravel", "postgresql", "rest"],
     featured: true,
     date: "2026-03-23",
     mainStack: ["Laravel", "Vue 3", "PostreSQL", "Docker"],

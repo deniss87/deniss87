@@ -134,7 +134,7 @@ function renderProjects() {
       const linkHtml = linkObj
         ? `<a href="${linkObj.url}" target="_blank">${linkObj.tag === "demo" ? "🌍 Live Demo" : "📋 View PR"}</a>`
         : repo !== "#"
-          ? `<a href="${repo}" target="_blank" class="table-link-repo">👨🏻‍💻 Repository</a>`
+          ? `<a href="${repo}" target="_blank"">👨🏻‍💻 Repository</a>`
           : "—";
 
       // Stack

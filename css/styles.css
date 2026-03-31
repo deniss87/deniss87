@@ -127,22 +127,6 @@ tbody tr:hover {
   background-color: #1e293b;
 }
 
-.contact a img {
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-hr {
-  border: 1px solid #30363d;
-  margin: 40px 0;
-}
-
-/* .projects-wrapper {
-  min-height: 426px;
-  width: 100%;
-  display: flow-root;
-} */
-
 /* Filters */
 
 .filter-container {
@@ -184,17 +168,6 @@ hr {
   color: #0d1117;
 }
 
-.sort-btn.active {
-  background: #2e7d32 !important;
-  color: white !important;
-  border-color: #388e3c;
-  box-shadow: 0 2px 8px rgba(46, 125, 50, 0.3);
-}
-
-.hidden {
-  display: none;
-}
-
 .sort-btn {
   padding: 0.5rem 1rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -234,9 +207,9 @@ hr {
 /* FEATURED PROJECTS SECTION */
 
 .slider-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  position: relative;
+  display: block;
+  width: 100%;
 }
 
 .featured-slider {
@@ -247,8 +220,7 @@ hr {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   scrollbar-width: none;
-  padding-top: 6px;
-  padding-bottom: 4px;
+  padding: 10px 0;
 }
 
 .featured-slider::-webkit-scrollbar {
@@ -256,6 +228,8 @@ hr {
 }
 
 .slider-arrow {
+  position: absolute;
+  top: 50%;
   background: var(--bg-color-secondary, rgba(255, 255, 255, 0.1));
   border: 2px solid transparent;
   border-radius: 50%;
@@ -270,12 +244,21 @@ hr {
   transition: all 0.3s ease;
   z-index: 10;
   opacity: 1;
+  pointer-events: auto;
 }
 
 .slider-arrow:hover {
   background: var(--bg-color-primary, rgba(0, 0, 0, 0.2));
   border-color: var(--color-primary, #61dafb);
   transform: scale(1.1);
+}
+
+.slider-prev {
+  left: 10px;
+}
+
+.slider-next {
+  right: 10px;
 }
 
 .slider-arrow:disabled {
@@ -513,5 +496,13 @@ hr {
     flex-shrink: 0;
     font-size: 0.8rem;
     padding: 6px 10px;
+  }
+
+  .slider-prev {
+    left: -10px;
+  }
+
+  .slider-next {
+    right: -10px;
   }
 }
